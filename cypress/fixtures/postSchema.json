@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "required": [
+      "name",
+      "alias",
+      "team",
+      "active"
+  ]
+}
