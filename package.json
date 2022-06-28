@@ -4,8 +4,9 @@
   "description": "Projeto de automação na API da Marvel durante a 1a temporada do Viver de Teste",
   "main": "index.js",
   "scripts": {
+    "back2thepast": "sh ./back2thepast.sh",
     "open": "npx cypress open",
-    "test": "npx cypress run"
+    "test": "npm run back2thepast && npx cypress run"
   },
   "repository": {
     "type": "git",
